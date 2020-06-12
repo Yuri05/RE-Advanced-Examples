@@ -13,3 +13,5 @@
 0,"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","CL",8.14166758209467,ml/min/kg
 0,"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Vss",1995.31316757202,ml/kg
 0,"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Vd",6725.31843185425,ml/kg
+0,"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","F_tEnd",1.49496495723724,%
+0,"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","F_max",2163.07106018066,%

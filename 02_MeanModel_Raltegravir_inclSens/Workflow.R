@@ -149,8 +149,8 @@ simulationSet16 <- SimulationSet$new(simulationSetName = 'Raltegravir 400mg (gra
 
 
 meanModelWorkflow <- MeanModelWorkflow$new(simulationSets = list(simulationSet1, simulationSet2, simulationSet3, simulationSet4, simulationSet5, simulationSet6, 
-                                                                  simulationSet7, simulationSet8, simulationSet9, simulationSet10, simulationSet11, 
-																  simulationSet12, simulationSet13, simulationSet14, simulationSet15, simulationSet16), 
+                                                                 simulationSet7, simulationSet8, simulationSet9, simulationSet10, simulationSet11, 
+																                                 simulationSet12, simulationSet13, simulationSet14, simulationSet15, simulationSet16), 
                                            workflowFolder = outputDir)
 
 #meanModelWorkflow <- MeanModelWorkflow$new(simulationSets = list(simulationSet1, simulationSet10), workflowFolder = outputDir)
