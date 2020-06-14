@@ -1,9 +1,9 @@
-  - [1. PK parameters](#pk-parameters)
-  - [2. Time profiles and residual plots](#time-profiles-and-residual-plots)
-      - [2.1. Time profiles and residual plots for Larson 2013 8y-18y 400mg FCT meal](#time-profiles-and-residual-plots-for-larson-2013-8y-18y-400mg-fct-meal)
-      - [2.2. Time profiles and residual plots for Filmcoated\_tablet\_400mg\_sd](#time-profiles-and-residual-plots-for-filmcoated_tablet_400mg_sd)
-      - [2.3. Residuals across all simulations](#residuals-across-all-simulations)
-  - [3. Demography](#demography)
+  - [1. PK parameters](#1-pk-parameters)
+  - [2. Time profiles and residual plots](#2-time-profiles-and-residual-plots)
+      - [2.1. Time profiles and residual plots for Larson 2013 8y-18y 400mg FCT meal](#21-time-profiles-and-residual-plots-for-larson-2013-8y-18y-400mg-fct-meal)
+      - [2.2. Time profiles and residual plots for Filmcoated\_tablet\_400mg\_sd](#22-time-profiles-and-residual-plots-for-filmcoated_tablet_400mg_sd)
+      - [2.3. Residuals across all simulations](#23-residuals-across-all-simulations)
+  - [3. Demography](#3-demography)
 
 # 1\. PK parameters
 
