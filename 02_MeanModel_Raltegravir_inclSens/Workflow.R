@@ -8,6 +8,7 @@ outputVenousBlood <- function(subFilter, dataDisplayName, pkParametersVenousBloo
 
 library("ospsuite.reportingengine")
 Sys.setenv(LANG = "en")
+ospsuite::removeAllUserDefinedPKParameters()
 
 workflowDir = getwd()
 outputDir = file.path(workflowDir, "Report")
