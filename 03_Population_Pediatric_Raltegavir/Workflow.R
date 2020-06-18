@@ -47,9 +47,8 @@ pkVd = PkParameterInfo$new("Vd", displayName = "Vd", displayUnit = "ml/kg")
 #pkAUC_inf_tLast_norm = PkParameterInfo$new("AUC_inf_tDLast_norm", displayName = "AUC_inf_tLast_norm", displayUnit = "kg*h/l")
 #pkThalf_tLast_tEnd = PkParameterInfo$new("Thalf_tDLast_tEnd", displayName = "Thalf_tLast_tEnd", displayUnit = "h")
 
-#TODO enable CL and VD as soon as nonfinite pk values are filtered out
-#pkVenousSingle = c(pkC_max, pkC_max_norm, pkt_max, pkC_tEnd, pkAUC_tEnd, pkAUC_tEnd_norm, pkAUC_inf, pkAUC_inf_norm, pkMRT, pkThalf, pkCL, pkVss, pkVd)
-pkVenousSingle = c(pkC_max, pkC_max_norm, pkt_max, pkC_tEnd, pkAUC_tEnd, pkAUC_tEnd_norm, pkAUC_inf, pkAUC_inf_norm, pkMRT, pkThalf, pkVss)
+pkVenousSingle = c(pkC_max, pkC_max_norm, pkt_max, pkC_tEnd, pkAUC_tEnd, pkAUC_tEnd_norm, pkAUC_inf, pkAUC_inf_norm, pkMRT, pkThalf, pkCL, pkVss, pkVd)
+#pkVenousSingle = c(pkC_max, pkC_max_norm, pkt_max, pkC_tEnd, pkAUC_tEnd, pkAUC_tEnd_norm, pkAUC_inf, pkAUC_inf_norm, pkMRT, pkThalf, pkVss)
 
 
 #pkVenousMultiple = c(pkC_max, pkC_max_norm, pkC_max_t1_t2, pkC_max_t1_t2_norm, pkC_max_tLast_tEnd, pkC_max_tLast_tEnd_norm, pkt_max, pkt_max_t1_t2, pkt_max_tLast_tEnd,

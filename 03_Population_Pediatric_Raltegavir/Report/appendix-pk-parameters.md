@@ -1983,6 +1983,204 @@ Figure: Gender-dependence of Thalf for Filmcoated_tablet_400mg_sd. Profiles are 
 ![](PKAnalysis/Filmcoated_tablet_400mg_sd-Thalf-vs-Gender-log.png)
 
 
+Figure: CL of Raltegravir shown as box-whisker plot, which indicates the 5th, 25th, 50th, 75th, and 95th percentiles in linear scale.
+
+
+![](PKAnalysis/Plasma%20(Peripheral%20Venous%20Blood)-CL.png)
+
+
+|Population                        |   N| 5th percentile| 25th percentile| 50th percentile| 75th percentile| 95th percentile|     mean| standard deviation| geo mean| geo standard deviation|
+|:---------------------------------|---:|--------------:|---------------:|---------------:|---------------:|---------------:|--------:|------------------:|--------:|----------------------:|
+|Larson 2013 8y-18y 400mg FCT meal | 497|       5.482107|        7.474598|        9.202990|        11.19313|        14.70885| 9.494908|           2.837539| 9.079494|               1.353166|
+|Filmcoated_tablet_400mg_sd        | 100|       5.883098|        7.467935|        9.030982|        10.28982|        13.48808| 9.200767|           2.501942| 8.887615|               1.300506|
+
+
+Figure: CL of Raltegravir shown as box-whisker plot, which indicates the 5th, 25th, 50th, 75th, and 95th percentiles in logarithmic scale.
+
+
+![](PKAnalysis/Plasma%20(Peripheral%20Venous%20Blood)-CL-log.png)
+
+
+Figure: Age-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Age.png)
+
+
+Figure: Age-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Age-log.png)
+
+
+Figure: Age-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Age.png)
+
+
+Figure: Age-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Age-log.png)
+
+
+Figure: Age-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Age.png)
+
+
+Figure: Age-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Age-log.png)
+
+
+Figure: Height-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Height.png)
+
+
+Figure: Height-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Height-log.png)
+
+
+Figure: Height-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Height.png)
+
+
+Figure: Height-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Height-log.png)
+
+
+Figure: Height-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Height.png)
+
+
+Figure: Height-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Height-log.png)
+
+
+Figure: Weight-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Weight.png)
+
+
+Figure: Weight-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Weight-log.png)
+
+
+Figure: Weight-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Weight.png)
+
+
+Figure: Weight-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Weight-log.png)
+
+
+Figure: Weight-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Weight.png)
+
+
+Figure: Weight-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Weight-log.png)
+
+
+Figure: BMI-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-BMI.png)
+
+
+Figure: BMI-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-BMI-log.png)
+
+
+Figure: BMI-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-BMI.png)
+
+
+Figure: BMI-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-BMI-log.png)
+
+
+Figure: BMI-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-BMI.png)
+
+
+Figure: BMI-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-BMI-log.png)
+
+
+Figure: Gender-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Gender.png)
+
+
+Figure: Gender-dependence of CL for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-CL-vs-Gender-log.png)
+
+
+Figure: Gender-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Gender.png)
+
+
+Figure: Gender-dependence of CL for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-CL-vs-Gender-log.png)
+
+
+Figure: Gender-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Gender.png)
+
+
+Figure: Gender-dependence of CL for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-CL-vs-Gender-log.png)
+
+
 Figure: Vss of Raltegravir shown as box-whisker plot, which indicates the 5th, 25th, 50th, 75th, and 95th percentiles in linear scale.
 
 
@@ -2179,4 +2377,202 @@ Figure: Gender-dependence of Vss for Filmcoated_tablet_400mg_sd. Profiles are pl
 
 
 ![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vss-vs-Gender-log.png)
+
+
+Figure: Vd of Raltegravir shown as box-whisker plot, which indicates the 5th, 25th, 50th, 75th, and 95th percentiles in linear scale.
+
+
+![](PKAnalysis/Plasma%20(Peripheral%20Venous%20Blood)-Vd.png)
+
+
+|Population                        |   N| 5th percentile| 25th percentile| 50th percentile| 75th percentile| 95th percentile|     mean| standard deviation| geo mean| geo standard deviation|
+|:---------------------------------|---:|--------------:|---------------:|---------------:|---------------:|---------------:|--------:|------------------:|--------:|----------------------:|
+|Larson 2013 8y-18y 400mg FCT meal | 497|       1564.173|        2133.960|        2893.517|        3971.826|        7809.583| 3610.032|           2601.888| 3089.065|               1.670647|
+|Filmcoated_tablet_400mg_sd        | 100|       3961.869|        5531.187|        6823.958|        9325.517|       16886.073| 8090.423|           4000.154| 7343.514|               1.531150|
+
+
+Figure: Vd of Raltegravir shown as box-whisker plot, which indicates the 5th, 25th, 50th, 75th, and 95th percentiles in logarithmic scale.
+
+
+![](PKAnalysis/Plasma%20(Peripheral%20Venous%20Blood)-Vd-log.png)
+
+
+Figure: Age-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Age.png)
+
+
+Figure: Age-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Age-log.png)
+
+
+Figure: Age-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Age.png)
+
+
+Figure: Age-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Age-log.png)
+
+
+Figure: Age-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Age.png)
+
+
+Figure: Age-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Age-log.png)
+
+
+Figure: Height-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Height.png)
+
+
+Figure: Height-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Height-log.png)
+
+
+Figure: Height-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Height.png)
+
+
+Figure: Height-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Height-log.png)
+
+
+Figure: Height-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Height.png)
+
+
+Figure: Height-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Height-log.png)
+
+
+Figure: Weight-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Weight.png)
+
+
+Figure: Weight-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Weight-log.png)
+
+
+Figure: Weight-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Weight.png)
+
+
+Figure: Weight-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Weight-log.png)
+
+
+Figure: Weight-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Weight.png)
+
+
+Figure: Weight-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Weight-log.png)
+
+
+Figure: BMI-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-BMI.png)
+
+
+Figure: BMI-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-BMI-log.png)
+
+
+Figure: BMI-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-BMI.png)
+
+
+Figure: BMI-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-BMI-log.png)
+
+
+Figure: BMI-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-BMI.png)
+
+
+Figure: BMI-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-BMI-log.png)
+
+
+Figure: Gender-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Gender.png)
+
+
+Figure: Gender-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal in comparison to Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-vs-ref-Vd-vs-Gender-log.png)
+
+
+Figure: Gender-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Gender.png)
+
+
+Figure: Gender-dependence of Vd for Larson 2013 8y-18y 400mg FCT meal. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Larson%202013%208y-18y%20400mg%20FCT%20meal-Vd-vs-Gender-log.png)
+
+
+Figure: Gender-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a linear scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Gender.png)
+
+
+Figure: Gender-dependence of Vd for Filmcoated_tablet_400mg_sd. Profiles are plotted in a logarithmic scale.
+
+
+![](PKAnalysis/Filmcoated_tablet_400mg_sd-Vd-vs-Gender-log.png)
 
