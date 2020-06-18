@@ -80,10 +80,10 @@ popWorkFlow <- PopulationWorkflow$new(workflowType = PopulationWorkflowTypes$ped
 #popWorkFlow <- PopulationWorkflow$new(workflowType = PopulationWorkflowTypes$pediatric, simulationSets = list(simSet1), workflowFolder = outputDir)
 
 popWorkFlow$simulatePopulation$settings$showProgress = TRUE
-popWorkFlow$simulatePopulation$settings$numberOfCores = parallel::detectCores()
+#popWorkFlow$simulatePopulation$settings$numberOfCores = parallel::detectCores()
 
 popWorkFlow$populationSensitivityAnalysis$settings$showProgress = TRUE
-popWorkFlow$populationSensitivityAnalysis$settings$numberOfCores = parallel::detectCores()
+#popWorkFlow$populationSensitivityAnalysis$settings$numberOfCores = parallel::detectCores()
 
 
 popWorkFlow$inactivateTasks(popWorkFlow$getAllTasks())
