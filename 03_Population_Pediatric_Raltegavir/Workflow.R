@@ -86,20 +86,19 @@ popWorkFlow$populationSensitivityAnalysis$settings$showProgress = TRUE
 
 
 popWorkFlow$inactivateTasks(popWorkFlow$getAllTasks())
-popWorkFlow$activateTasks("simulatePopulation")
+#popWorkFlow$activateTasks("simulatePopulation")
 popWorkFlow$activateTasks("plotDemography")
 popWorkFlow$activateTasks("plotGoF")
-popWorkFlow$activateTasks("populationPKParameters")
+#popWorkFlow$activateTasks("populationPKParameters")
 popWorkFlow$activateTasks("plotPKParameters")
 #popWorkFlow$activateTasks("populationSensitivityAnalysis")
-#popWorkFlow$activateTasks("plotSensitivity")
+popWorkFlow$activateTasks("plotSensitivity")
 
-#popWorkFlow$meanModelSensitivityAnalysis$settings$showProgress = TRUE
-#popWorkFlow$meanModelSensitivityAnalysis$settings$variableParameterPaths <- c(
-#  "Raltegravir|Lipophilicity", 
-#  "Raltegravir|Specific intestinal permeability (transcellular)",  
-#  "Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes",
-#  "Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes"
-#  )
+popWorkFlow$populationSensitivityAnalysis$settings$variableParameterPaths <- c(
+  "Raltegravir|Lipophilicity", 
+  "Raltegravir|Specific intestinal permeability (transcellular)",  
+  "Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes",
+  "Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes"
+  )
 
 popWorkFlow$runWorkflow()
