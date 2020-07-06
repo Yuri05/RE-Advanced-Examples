@@ -1,6 +1,6 @@
 "Path","Parameter","Value","Unit"
 "Raltegravir","C_max",3568.55638939686,"µg/l"
-"Raltegravir","C_max_norm",0.651261589581412,"kg/l"
+"Raltegravir","C_max_norm",0.651261589581413,"kg/l"
 "Raltegravir","t_max",0.75,"h"
 "Raltegravir","C_tEnd",28.2685934538469,"µg/l"
 "Raltegravir","AUC",8703.64983366906,"µg*h/l"

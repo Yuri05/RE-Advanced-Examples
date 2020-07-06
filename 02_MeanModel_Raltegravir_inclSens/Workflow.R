@@ -2,7 +2,7 @@ outputVenousBlood <- function(subFilter, dataDisplayName, pkParametersVenousBloo
 {
   return (Output$new(path = "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)", displayName = "Raltegravir", displayUnit = "µg/l", 
                      pkParameters = pkParametersVenousBlood,
-                     dataFilter = paste0('OUTPUT=="Raltegravir_PLASMA" & ', subFilter),
+                     dataSelection = paste0('OUTPUT=="Raltegravir_PLASMA" & ', subFilter),
                      dataDisplayName = dataDisplayName))
 }
 
@@ -163,15 +163,31 @@ meanModelWorkflow$activateTasks("plotMassBalance")
 meanModelWorkflow$activateTasks("plotGoF")
 meanModelWorkflow$activateTasks("meanModelPKParameters")
 meanModelWorkflow$activateTasks("plotPKParameters")
-#meanModelWorkflow$activateTasks("meanModelSensitivityAnalysis")
-#meanModelWorkflow$activateTasks("plotSensitivity")
+meanModelWorkflow$activateTasks("meanModelSensitivityAnalysis")
+meanModelWorkflow$activateTasks("plotSensitivity")
 
 meanModelWorkflow$meanModelSensitivityAnalysis$settings$showProgress = TRUE
 meanModelWorkflow$meanModelSensitivityAnalysis$settings$variableParameterPaths <- c(
   "Raltegravir|Lipophilicity", 
   "Raltegravir|Specific intestinal permeability (transcellular)",  
   "Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes",
-  "Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes"
+  "Raltegravir-UGT1A1-Kassahun 2007|In vitro Vmax for liver microsomes",
+  "Applications|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape",
+  "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Dissolution shape",
+  "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution shape",
+  "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+  "Applications|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape"
   )
+#meanModelWorkflow$plotSensitivity$settings = SensitivityPlotSettings$new(totalSensitivityThreshold = 1, maximalParametersPerSensitivityPlot = 12, plotFontSize = 20)
 
 meanModelWorkflow$runWorkflow()
