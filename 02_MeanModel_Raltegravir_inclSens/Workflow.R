@@ -157,13 +157,13 @@ meanModelWorkflow <- MeanModelWorkflow$new(simulationSets = list(simulationSet1,
 #meanModelWorkflow <- MeanModelWorkflow$new(simulationSets = list(simulationSet1, simulationSet10), workflowFolder = outputDir)
 
 meanModelWorkflow$inactivateTasks(meanModelWorkflow$getAllTasks())
-meanModelWorkflow$activateTasks("simulate")
+#meanModelWorkflow$activateTasks("simulate")
 meanModelWorkflow$activateTasks("plotAbsorption")
 meanModelWorkflow$activateTasks("plotMassBalance")
 meanModelWorkflow$activateTasks("plotGoF")
 meanModelWorkflow$activateTasks("meanModelPKParameters")
 meanModelWorkflow$activateTasks("plotPKParameters")
-meanModelWorkflow$activateTasks("meanModelSensitivityAnalysis")
+#meanModelWorkflow$activateTasks("meanModelSensitivityAnalysis")
 meanModelWorkflow$activateTasks("plotSensitivity")
 
 meanModelWorkflow$meanModelSensitivityAnalysis$settings$showProgress = TRUE
@@ -188,6 +188,6 @@ meanModelWorkflow$meanModelSensitivityAnalysis$settings$variableParameterPaths <
   "Applications|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
   "Applications|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape"
   )
-#meanModelWorkflow$plotSensitivity$settings = SensitivityPlotSettings$new(totalSensitivityThreshold = 1, maximalParametersPerSensitivityPlot = 12, plotFontSize = 20)
+meanModelWorkflow$plotSensitivity$settings = SensitivityPlotSettings$new(xAxisFontSize = 12, yAxisFontSize = 8)
 
 meanModelWorkflow$runWorkflow()
