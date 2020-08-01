@@ -71,14 +71,14 @@ meanModelWorkflow$inactivateTasks(meanModelWorkflow$getAllTasks())
 #meanModelWorkflow$activateTasks("simulate")
 meanModelWorkflow$activateTasks("plotAbsorption")
 meanModelWorkflow$activateTasks("plotMassBalance")
-meanModelWorkflow$activateTasks("plotGoF")
-meanModelWorkflow$activateTasks("meanModelPKParameters")
+meanModelWorkflow$activateTasks("plotTimeProfilesAndResiduals")
+meanModelWorkflow$activateTasks("calculatePKParameters")
 meanModelWorkflow$activateTasks("plotPKParameters")
-#meanModelWorkflow$activateTasks("meanModelSensitivityAnalysis")
+#meanModelWorkflow$activateTasks("calculateSensitivity")
 meanModelWorkflow$activateTasks("plotSensitivity")
 
-meanModelWorkflow$meanModelSensitivityAnalysis$settings$showProgress = TRUE
-meanModelWorkflow$meanModelSensitivityAnalysis$settings$variableParameterPaths <- c(
+meanModelWorkflow$calculateSensitivity$settings$showProgress = TRUE
+meanModelWorkflow$calculateSensitivity$settings$variableParameterPaths <- c(
   "Raltegravir|Lipophilicity", 
   "Raltegravir|Specific intestinal permeability (transcellular)",  
   "Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes",
