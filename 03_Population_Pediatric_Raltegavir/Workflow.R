@@ -78,23 +78,23 @@ simSet2 <- PopulationSimulationSet$new(simulationSetName = 'Filmcoated_tablet_40
 popWorkFlow <- PopulationWorkflow$new(workflowType = PopulationWorkflowTypes$pediatric, simulationSets = list(simSet1, simSet2), workflowFolder = outputDir)
 #popWorkFlow <- PopulationWorkflow$new(workflowType = PopulationWorkflowTypes$pediatric, simulationSets = list(simSet1), workflowFolder = outputDir)
 
-popWorkFlow$simulatePopulation$settings$showProgress = TRUE
-#popWorkFlow$simulatePopulation$settings$numberOfCores = parallel::detectCores()
+popWorkFlow$simulate$settings$showProgress = TRUE
+#popWorkFlow$simulate$settings$numberOfCores = parallel::detectCores()
 
-popWorkFlow$populationSensitivityAnalysis$settings$showProgress = TRUE
-#popWorkFlow$populationSensitivityAnalysis$settings$numberOfCores = parallel::detectCores()
+popWorkFlow$calculateSensitivity$settings$showProgress = TRUE
+#popWorkFlow$calculateSensitivity$settings$numberOfCores = parallel::detectCores()
 
 
 popWorkFlow$inactivateTasks(popWorkFlow$getAllTasks())
-#popWorkFlow$activateTasks("simulatePopulation")
+#popWorkFlow$activateTasks("simulate")
 popWorkFlow$activateTasks("plotDemography")
-popWorkFlow$activateTasks("plotGoF")
-#popWorkFlow$activateTasks("populationPKParameters")
+popWorkFlow$activateTasks("plotTimeProfilesAndResiduals")
+#popWorkFlow$activateTasks("calculatePKParameters")
 popWorkFlow$activateTasks("plotPKParameters")
-#popWorkFlow$activateTasks("populationSensitivityAnalysis")
+#popWorkFlow$activateTasks("calculateSensitivity")
 popWorkFlow$activateTasks("plotSensitivity")
 
-popWorkFlow$populationSensitivityAnalysis$settings$variableParameterPaths <- c(
+popWorkFlow$calculateSensitivity$settings$variableParameterPaths <- c(
   "Raltegravir|Lipophilicity", 
   "Raltegravir|Specific intestinal permeability (transcellular)",  
   "Raltegravir-UGT1A9-Kassahun 2007|In vitro Vmax for liver microsomes",
