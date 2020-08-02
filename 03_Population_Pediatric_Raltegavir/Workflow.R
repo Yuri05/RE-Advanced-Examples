@@ -2,7 +2,7 @@ outputVenousBlood <- function(subFilter, dataDisplayName, pkParametersVenousBloo
 {
   return (Output$new(path = "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)", displayName = "Raltegravir", displayUnit = "µg/l", 
                      pkParameters = pkParametersVenousBlood,
-                     dataFilter = paste0('OUTPUT=="Raltegravir_PLASMA" & ', subFilter),
+                     dataSelection = paste0('OUTPUT=="Raltegravir_PLASMA" & ', subFilter),
                      dataDisplayName = dataDisplayName))
 }
 
@@ -29,31 +29,8 @@ pkThalf = PkParameterInfo$new("Thalf", displayName = "Thalf", displayUnit = "h")
 pkCL = PkParameterInfo$new("CL", displayName = "CL", displayUnit = "ml/min/kg")
 pkVss = PkParameterInfo$new("Vss", displayName = "Vss", displayUnit = "ml/kg")
 pkVd = PkParameterInfo$new("Vd", displayName = "Vd", displayUnit = "ml/kg")
-#pkC_max_t1_t2 = PkParameterInfo$new("C_max_tD1_tD2", displayName = "C_max_t1_t2", displayUnit = "µg/l")
-#pkC_max_t1_t2_norm = PkParameterInfo$new("C_max_tD1_tD2_norm", displayName = "C_max_t1_t2_norm", displayUnit = "kg/l")
-#pkC_max_tLast_tEnd = PkParameterInfo$new("C_max_tDLast_tEnd", displayName = "C_max_tLast_tEnd", displayUnit = "µg/l")
-#pkC_max_tLast_tEnd_norm = PkParameterInfo$new("C_max_tDLast_tEnd_norm", displayName = "C_max_tLast_tEnd_norm", displayUnit = "kg/l")
-#pkt_max_t1_t2 = PkParameterInfo$new("t_max_tD1_tD2", displayName = "t_max_t1_t2", displayUnit = "h")
-#pkt_max_tLast_tEnd = PkParameterInfo$new("t_max_tDLast_tEnd", displayName = "t_max_tLast_tEnd", displayUnit = "h")
-#pkC_trough_t2 = PkParameterInfo$new("C_trough_tD2", displayName = "C_trough_t2", displayUnit = "µg/l")
-#pkC_trough_tLast = PkParameterInfo$new("C_trough_tDLast", displayName = "C_trough_tLast", displayUnit = "µg/l")
-#pkAUC_t1_t2 = PkParameterInfo$new("AUC_tD1_tD2", displayName = "AUC_t1_t2", displayUnit = "µg*h/l")
-#pkAUC_t1_t2_norm = PkParameterInfo$new("AUC_tD1_tD2_norm", displayName = "AUC_t1_t2_norm", displayUnit = "kg*h/l")
-#pkAUC_tLast_minus_1_tLast = PkParameterInfo$new("AUC_tDLast_minus_1_tDLast", displayName = "AUC_tLast_minus_1_tLast", displayUnit = "µg*h/l")
-#pkAUC_tLast_minus_1_tLast_norm = PkParameterInfo$new("AUC_tDLast_minus_1_tDLast_norm", displayName = "AUC_tLast_minus_1_tLast_norm", displayUnit = "kg*h/l")
-#pkAUC_inf_t1 = PkParameterInfo$new("AUC_inf_tD1", displayName = "AUC_inf_t1", displayUnit = "µg*h/l")
-#pkAUC_inf_t1_norm = PkParameterInfo$new("AUC_inf_tD1_norm", displayName = "AUC_inf_t1_norm", displayUnit = "kg*h/l")
-#pkAUC_inf_tLast = PkParameterInfo$new("AUC_inf_tDLast", displayName = "AUC_inf_tLast", displayUnit = "µg*h/l")
-#pkAUC_inf_tLast_norm = PkParameterInfo$new("AUC_inf_tDLast_norm", displayName = "AUC_inf_tLast_norm", displayUnit = "kg*h/l")
-#pkThalf_tLast_tEnd = PkParameterInfo$new("Thalf_tDLast_tEnd", displayName = "Thalf_tLast_tEnd", displayUnit = "h")
 
 pkVenousSingle = c(pkC_max, pkC_max_norm, pkt_max, pkC_tEnd, pkAUC_tEnd, pkAUC_tEnd_norm, pkAUC_inf, pkAUC_inf_norm, pkMRT, pkThalf, pkCL, pkVss, pkVd)
-#pkVenousSingle = c(pkC_max, pkC_max_norm, pkt_max, pkC_tEnd, pkAUC_tEnd, pkAUC_tEnd_norm, pkAUC_inf, pkAUC_inf_norm, pkMRT, pkThalf, pkVss)
-
-
-#pkVenousMultiple = c(pkC_max, pkC_max_norm, pkC_max_t1_t2, pkC_max_t1_t2_norm, pkC_max_tLast_tEnd, pkC_max_tLast_tEnd_norm, pkt_max, pkt_max_t1_t2, pkt_max_tLast_tEnd,
-#                     pkC_trough_t2, pkC_trough_tLast, pkAUC_t1_t2, pkAUC_t1_t2_norm, pkAUC_tLast_minus_1_tLast, pkAUC_tLast_minus_1_tLast_norm, pkAUC_inf_t1, 
-#                     pkAUC_inf_t1_norm, pkAUC_inf_tLast, pkAUC_inf_tLast_norm, pkMRT, pkThalf, pkThalf_tLast_tEnd)
 
 simSet1 <- PopulationSimulationSet$new(simulationSetName = 'Larson 2013 8y-18y 400mg FCT meal', 
                                        simulationName = "Larson 2013 8-18y meal",
@@ -86,12 +63,12 @@ popWorkFlow$calculateSensitivity$settings$showProgress = TRUE
 
 
 popWorkFlow$inactivateTasks(popWorkFlow$getAllTasks())
-#popWorkFlow$activateTasks("simulate")
+popWorkFlow$activateTasks("simulate")
 popWorkFlow$activateTasks("plotDemography")
 popWorkFlow$activateTasks("plotTimeProfilesAndResiduals")
-#popWorkFlow$activateTasks("calculatePKParameters")
+popWorkFlow$activateTasks("calculatePKParameters")
 popWorkFlow$activateTasks("plotPKParameters")
-#popWorkFlow$activateTasks("calculateSensitivity")
+popWorkFlow$activateTasks("calculateSensitivity")
 popWorkFlow$activateTasks("plotSensitivity")
 
 popWorkFlow$calculateSensitivity$settings$variableParameterPaths <- c(
