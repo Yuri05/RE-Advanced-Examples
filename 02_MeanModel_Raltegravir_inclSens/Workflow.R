@@ -188,6 +188,6 @@ meanModelWorkflow$calculateSensitivity$settings$variableParameterPaths <- c(
   "Applications|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
   "Applications|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape"
   )
-meanModelWorkflow$plotSensitivity$settings = SensitivityPlotSettings$new(xAxisFontSize = 12, yAxisFontSize = 8)
+#meanModelWorkflow$plotSensitivity$settings = SensitivityPlotSettings$new(xAxisFontSize = 12, yAxisFontSize = 8)
 
 meanModelWorkflow$runWorkflow()
