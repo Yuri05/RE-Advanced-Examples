@@ -1,0 +1,45 @@
+﻿"QuantityPath","Parameter","PKParameter","Value"
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","C_max",-0.366235244692883
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","C_max",0.126382620640969
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","C_max",-0.274099132924189
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","C_max",-0.378228545410115
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","t_max",-0.0316455696202531
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","t_max",-0.0949367088607593
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","t_max",-0.0949367088607594
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","t_max",-0.0949367088607594
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","C_tEnd",-0.616530070591593
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","C_tEnd",0.0524418843359994
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","C_tEnd",-0.537448971955649
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","C_tEnd",-0.618031476485817
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","AUC_tEnd",-0.390929718698962
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","AUC_tEnd",0.124238105782556
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","AUC_tEnd",-0.312873304545738
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","AUC_tEnd",-0.415783716561962
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","AUC_inf",-0.405519802406285
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","AUC_inf",0.122052076666719
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","AUC_inf",-0.32296902721189
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","AUC_inf",-0.424655273226617
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","MRT",-0.0578746988658179
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","MRT",-0.0328624141589584
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","MRT",-0.059862608877476
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","MRT",-0.0536910569467709
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","Thalf",-0.131258099240724
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","Thalf",0.0183520426695555
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","Thalf",-0.0221304156254796
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","Thalf",-0.014525083814653
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","FractionAucLastToInf",-0.342166130897633
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","FractionAucLastToInf",-0.0513483394195481
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","FractionAucLastToInf",-0.236470230669058
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","FractionAucLastToInf",-0.207590154902514
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","CL",0.405561158958041
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","CL",-0.122164134534954
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","CL",0.322949857344213
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","CL",0.424475876015067
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","Vss",0.347643482037694
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","Vss",-0.155064980316437
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","Vss",0.263091800093375
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","Vss",0.370815913712454
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Lipophilicity","Vd",0.274048237319517
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-Specific intestinal permeability (transcellular)","Vd",-0.103817896569193
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A9-Kassahun 2007-In vitro Vmax for liver microsomes","Vd",0.300850956395735
+"Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)","Raltegravir-UGT1A1-Kassahun 2007-In vitro Vmax for liver microsomes","Vd",0.40999333991569
